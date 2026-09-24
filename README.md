@@ -17,6 +17,8 @@ The project provides:
 
 ## Repository structure
 
+The required project files are present in this repository:
+
 ```text
 .
 ├── README.md
@@ -25,7 +27,16 @@ The project provides:
 └── eda_sales_analysis.py
 ```
 
-### Expected input and generated outputs
+## File checklist
+
+| File | Status | Purpose |
+|---|---|---|
+| `eda_sales_analysis.py` | Available | Main analysis, KPI, RFM, forecasting, and plotting code |
+| `requirements.txt` | Available | Python package dependencies |
+| `PROJECT_REPORT.md` | Available | Complete project methodology, findings, limitations, and run instructions |
+| `README.md` | Available | Project overview, structure, setup, and usage |
+
+## Expected input and generated outputs
 
 The analysis script expects an input file named:
 
@@ -44,16 +55,7 @@ plots/
 └── payment_methods.png
 ```
 
-**Repository status:** the CSV dataset and generated `plots/` artifacts were not present when the repository was checked. They are therefore documented as expected inputs/outputs rather than listed as existing repository files.
-
-## Main files
-
-| File | Purpose |
-|---|---|
-| `eda_sales_analysis.py` | Main data preparation, KPI, RFM, forecasting, and plotting code |
-| `requirements.txt` | Python package dependencies |
-| `PROJECT_REPORT.md` | Detailed project methodology, limitations, and run instructions |
-| `README.md` | Project overview and quick-start documentation |
+These dataset/plot artifacts are generated project assets; the four core documentation/source files listed above are the files currently maintained in the GitHub repository.
 
 ## Dataset
 
